@@ -1,0 +1,31 @@
+/* Flexbox setup for the body */
+body {
+    display: flex; /* Use flexbox layout */
+    flex-direction: column; /* Arrange items vertically */
+    align-items: center; /* Center align items horizontally */
+    font-family: Arial, sans-serif; /* Set font family for the entire document */
+}
+
+/* Styling for the canvas element */
+canvas {
+    border: 2px solid black; /* Black border around the canvas */
+    margin-bottom: 10px; /* Bottom margin for spacing */
+}
+
+/* Styling for the control buttons container */
+#controls {
+    margin-bottom: 10px; /* Bottom margin for spacing */
+}
+
+/* Styling for all buttons */
+button {
+    margin: 5px; /* Margin around each button */
+}
+
+/* Styling for the message display */
+#message {
+    font-size: 18px; /* Font size for the message */
+    color: green; /* Green text color */
+    margin-top: 10px; /* Top margin for spacing */
+}
+

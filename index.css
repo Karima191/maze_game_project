@@ -1,72 +1,77 @@
+/* Resetting default styles and setting global styles */
 body {
-  font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
+  font-family: Arial, sans-serif; /* Set font family for the entire document */
+  margin: 0; /* Remove default margin */
+  padding: 0; /* Remove default padding */
 }
 
+/* Styling for the header section */
 header {
-  background-color: #333;
-  padding: 1em 0;
+  background-color: #333; /* Dark background color */
+  padding: 1em 0; /* Padding top and bottom */
 }
 
+/* Styling for the navigation menu */
 nav ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  display: flex;
-  justify-content: center;
+  list-style: none; /* Remove default list styling */
+  margin: 0; /* Remove default margin */
+  padding: 0; /* Remove default padding */
+  display: flex; /* Use flexbox for layout */
+  justify-content: center; /* Center align navigation items */
 }
 
 nav li {
-  margin: 0 1em;
+  margin: 0 1em; /* Margin between navigation items */
 }
 
 nav a {
-  color: white;
-  text-decoration: none;
-  font-weight: bold;
+  color: white; /* Text color */
+  text-decoration: none; /* Remove underline from links */
+  font-weight: bold; /* Bold font weight */
 }
 
+/* Styling for the intro section */
 #intro {
-  position: relative;
-  text-align: center;
-  color: white;
+  position: relative; /* Relative positioning */
+  text-align: center; /* Center align text */
+  color: white; /* Text color */
 }
 
 .cover-image {
-  width: 100%;
-  height: auto;
-  opacity: 0.8;
+  width: 100%; /* Full width image */
+  height: auto; /* Maintain aspect ratio */
+  opacity: 0.8; /* Reduced opacity for background image */
 }
 
 .intro-content {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  position: absolute; /* Absolute positioning */
+  top: 50%; /* Center vertically */
+  left: 50%; /* Center horizontally */
+  transform: translate(-50%, -50%); /* Center content */
 }
 
 h1 {
-  font-size: 3em;
-  margin: 0;
+  font-size: 3em; /* Large heading font size */
+  margin: 0; /* Remove margin */
 }
 
 .tagline {
-  font-size: 1.5em;
-  margin: 0.5em 0;
+  font-size: 1.5em; /* Medium font size for tagline */
+  margin: 0.5em 0; /* Margin top and bottom */
 }
 
 .cta-button {
-  background-color: #ff6347;
-  color: white;
-  padding: 0.5em 1em;
-  text-decoration: none;
-  font-size: 1.2em;
-  border-radius: 5px;
+  background-color: #ff6347; /* Button background color */
+  color: white; /* Button text color */
+  padding: 0.5em 1em; /* Padding inside button */
+  text-decoration: none; /* Remove underline from link */
+  font-size: 1.2em; /* Button text size */
+  border-radius: 5px; /* Rounded corners */
 }
 
+/* Styling for sections about and features */
 #about, #features {
-  padding: 2em;
-  text-align: center;
+  padding: 2em; /* Padding inside sections */
+  text-align: center; /* Center align text */
 }
 
