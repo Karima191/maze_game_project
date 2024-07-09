@@ -1,0 +1,15 @@
+# Ignore swap files
+*.swp
+
+# Ignore log files and temporary files
+*.log
+*.tmp
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore other temporary files
+*.bak
+*.swp
+
